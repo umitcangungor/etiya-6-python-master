@@ -2,7 +2,6 @@
 # Fibonacci Serisi : Serideki her bir sayı kendisinden önceki iki sayının toplamına eşittir.
 
 
-
 list = [] 
 a = 1
 b = 0
@@ -13,6 +12,8 @@ while len(list)<20:
     b = c
     list.append(b) 
 print(list)
+
+
 
 #  Bir sayının kendi hariç tüm bölenlerinin toplamı eğer kendisine eşitse bu Mükemmel Sayıdır. Örnek: 1 + 2 + 3 = 6
 # Kullanıcıdan aldığı sayıyının mükemmel olup olmadığını söyleyen bir program yazın. 
@@ -27,3 +28,5 @@ if(sayi == toplam):
     print(sayi,"-> Mükemmel Sayıdır.") 
 else:
     print(sayi,"-> Mükemmel Sayı Degildir")
+ 
+
