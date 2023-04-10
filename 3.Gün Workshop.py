@@ -24,7 +24,7 @@ print(list)
 a = int(input("Alt limit giriniz?"))
 u = int(input("Üst limit giriniz?"))
 S = []
-for cıftSayi in range(a, u):
+for cıftSayi in range(a+1, u):
   if cıftSayi > 0 and cıftSayi%2 == 0:
     S.append(cıftSayi)
     
